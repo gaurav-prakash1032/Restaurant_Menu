@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu App</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <img src="./images/restaurant-logo.jpg" alt="Restaurant Logo" />
+        </div>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ourmenu.html">Our Menu</a></li>
+            <li><a href="#offers">Our Offers</a></li>
+            <li><a href="#about">Know us More</a></li>
+            <li><a href="order.html">Your Order</a></li>
+            <li><a href="cart.html">Cart(0)</a></li>
+          </ul>
+          <div class="login">
+            <a href="login.html">Login/SignUp</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Offers Section -->
+    <section id="offers" class="offer-section">
+      <button class="offercheckout-btn">Checkout All Offers</button>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <h2>Our Menu</h2>
+      <section id="menu1">
+        <!-- Best Seller -->
+        <div class="menu-category">
+          <div class="category-header">
+            <h3>Best Seller</h3>
+            <button class="view-all-btn">view all</button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=BestSeller"
+                alt="Best Seller Image"
+              />
+              <div class="menu-card-content">
+                <h4>Best Seller Item 1</h4>
+                <p>
+                  Description of the best seller item.Description of the best
+                  seller item.
+                </p>
+                <span
+                  >Price: <strike class="strike-price">$10.99</strike> $8.99
+                  <span style="color: rgb(243, 57, 57); font-size: 13px"
+                    >10% off</span
+                  ></span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=BestSeller"
+                alt="Best Seller Image"
+              />
+              <div class="menu-card-content">
+                <h4>Best Seller Item 2</h4>
+                <p>Description of the best seller item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$10.99</strike> $8.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=BestSeller"
+                alt="Best Seller Image"
+              />
+              <div class="menu-card-content">
+                <h4>Best Seller Item 3</h4>
+                <p>Description of the best seller item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$10.99</strike> $8.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trending -->
+        <div class="menu-category">
+          <div class="category-header">
+            <h3>Trending</h3>
+            <button class="view-all-btn">view all</button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Trending"
+                alt="Trending Image"
+              />
+              <div class="menu-card-content">
+                <h4>Trending Item 1</h4>
+                <p>Description of the trending item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$12.99</strike> $10.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Trending"
+                alt="Trending Image"
+              />
+              <div class="menu-card-content">
+                <h4>Trending Item 2</h4>
+                <p>Description of the trending item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$12.99</strike> $10.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Trending"
+                alt="Trending Image"
+              />
+              <div class="menu-card-content">
+                <h4>Trending Item 3</h4>
+                <p>Description of the trending item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$12.99</strike> $10.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Starters -->
+        <div class="menu-category">
+          <div class="category-header">
+            <h3>Starters</h3>
+            <button class="view-all-btn">view all</button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Starters"
+                alt="Starters Image"
+              />
+              <div class="menu-card-content">
+                <h4>Starter Item 1</h4>
+                <p>Description of the starter item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$8.99</strike> $7.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Starters"
+                alt="Starters Image"
+              />
+              <div class="menu-card-content">
+                <h4>Starter Item 2</h4>
+                <p>Description of the starter item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$8.99</strike> $7.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Starters"
+                alt="Starters Image"
+              />
+              <div class="menu-card-content">
+                <h4>Starter Item 3</h4>
+                <p>Description of the starter item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$8.99</strike> $7.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beverages -->
+        <div class="menu-category">
+          <div class="category-header">
+            <h3>Beverages</h3>
+            <button class="view-all-btn">view all</button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Beverages"
+                alt="Beverages Image"
+              />
+              <div class="menu-card-content">
+                <h4>Beverage Item 1</h4>
+                <p>Description of the beverage item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$3.99</strike> $2.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Beverages"
+                alt="Beverages Image"
+              />
+              <div class="menu-card-content">
+                <h4>Beverage Item 2</h4>
+                <p>Description of the beverage item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$3.99</strike> $2.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Beverages"
+                alt="Beverages Image"
+              />
+              <div class="menu-card-content">
+                <h4>Beverage Item 3</h4>
+                <p>Description of the beverage item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$3.99</strike> $2.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Courses -->
+        <div class="menu-category">
+          <div class="category-header">
+            <h3>Main Course</h3>
+            <button class="view-all-btn">view all</button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=MainCourses"
+                alt="Main Courses Image"
+              />
+              <div class="menu-card-content">
+                <h4>Main Course Item 1</h4>
+                <p>Description of the main course item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$15.99</strike> $14.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=MainCourses"
+                alt="Main Courses Image"
+              />
+              <div class="menu-card-content">
+                <h4>Main Course Item 2</h4>
+                <p>Description of the main course item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$15.99</strike> $14.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=MainCourses"
+                alt="Main Courses Image"
+              />
+              <div class="menu-card-content">
+                <h4>Main Course Item 3</h4>
+                <p>Description of the main course item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$15.99</strike> $14.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Combos -->
+        <div class="menu-category">
+          <div class="category-header">
+            <h3>Combos</h3>
+            <button class="view-all-btn">view all</button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Combos"
+                alt="Combos Image"
+              />
+              <div class="menu-card-content">
+                <h4>Combo Item 1</h4>
+                <p>Description of the combo item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$20.99</strike> $19.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Combos"
+                alt="Combos Image"
+              />
+              <div class="menu-card-content">
+                <h4>Combo Item 2</h4>
+                <p>Description of the combo item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$20.99</strike> $19.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img
+                src="https://placehold.co/200x100?text=Combos"
+                alt="Combos Image"
+              />
+              <div class="menu-card-content">
+                <h4>Combo Item 3</h4>
+                <p>Description of the combo item.</p>
+                <span
+                  >Price:
+                  <strike class="strike-price">$20.99</strike> $19.99</span
+                >
+              </div>
+              <div class="add-to-cart-btn">
+                <button class="cta-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Logo Section -->
+        <div class="footer-section logo-section">
+          <img
+            src="./images/restaurant-logo.jpg"
+            alt="Shop Logo"
+            class="footer-logo"
+          />
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-section links-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#offers">Our Offers</a></li>
+            <li><a href="#about">Know What We Have Achieved</a></li>
+          </ul>
+        </div>
+
+        <!-- Social & Subscription Section -->
+        <div class="footer-section social-subscribe">
+          <h3>Wanna Get Updated with Our Exciting Offers?</h3>
+          <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="#" class="social-link">Instagram</a> |
+            <a href="#" class="social-link">Facebook</a> |
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+          <hr />
+          <div class="subscribe-form">
+            <input
+              type="email"
+              placeholder="Subscribe for daily exciting offers"
+            />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <a href="#terms">Terms & Conditions</a> |
+          <a href="#privacy">Privacy Policy</a> |
+          <a href="#reserved">All Rights Reserved</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./Script/index.js"></script>
+  </body>
+</html>
